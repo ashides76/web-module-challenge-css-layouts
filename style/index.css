@@ -13,7 +13,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -47,6 +47,7 @@ table {
   padding: 0;
   margin: 0;
   max-width: 100%;
+  border: 1px solid grey;
   /* put a border around everything to see where it stops and starts */
 }
 
@@ -59,7 +60,8 @@ body {
   font-size: 1.8rem;
   line-height: 1.5;
   color: #4f4f4f;
-  background-color: #fffafa;
+  /* background-color: #fffafa; */
+  background-color: #e3e3e3;
 }
 h1,
 h2,
@@ -67,7 +69,6 @@ h3,
 h4 {
   font-family: "Nunito", sans-serif;
   letter-spacing: 3px;
-  text-align: center;
 }
 h1 {
   font-size: 5rem;
@@ -94,3 +95,33 @@ a:hover {
 i {
   font-size: 5rem;
 }
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.name{
+  display: flex;
+}
+
+.links{
+  display: flex;
+  justify-content: flex-start;
+  gap: 0px 10px
+}
+
+.about{
+  display: flex;
+  /* justify-content: flex-end; */
+}
+.image, .info{
+width: 40%;
+
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
