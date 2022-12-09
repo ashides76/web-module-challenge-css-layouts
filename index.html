@@ -5,32 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
     <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
 </head>
 <body>
-    <header>
+    <header id="top">
         <nav class="nav">
             <div class="name">
-                <h1><b>John Doe</b></h1>
+                <h1><b>My Protfolio</b></h1>
             </div>
             <div class="links">
                 <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <a href="#">Projects</a>
+                <a href="#me">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#project">Projects</a>
             </div>
         </nav>
     </header>
-    <!-- <section>
+    <section id="me">
         <div class="about">
-            <img class = 'image'src="https://images.unsplash.com/photo-1546146830-2cca9512c68e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="developer">
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1546146830-2cca9512c68e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="developer">
+            </div>
             <div class="info">
-                    <div>
-                        <h2>John Doe</h2>
-                        <button>My Projects</button>
-                    </div>
+                    <h2><b>John Doe</b></h2>
+                    <button class="btn">My Projects</button>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet dicta fugiat ut perspiciatis molestias, facere repudiandae voluptate enim quaerat. Iure quasi ipsum reprehenderit voluptatum recusandae, modi inventore fugiat hic? Et?</p>
             </div>
         </div>
-    </section> -->
+    </section>
+    <section id="project">
+        <div class="icon">
+            <div>
+                <i class="devicon-javascript-plain colored"></i>
+                <p>Java Script</p>
+            </div>
+            <div>
+                <i class="devicon-react-original colored"></i>
+                <p>React</p>
+            </div>
+            <div>
+                <i class="devicon-nodejs-plain colored"></i>
+                <p>NodeJS</p>
+            </div>
+            <div>
+                <i class="devicon-github-original colored"></i>
+                <p>GitHub</p>
+            </div>
+            <div>
+                <i class="devicon-html5-plain colored"></i>
+                <p>HTML</p>
+            </div>
+            <div>
+                <i class="devicon-css3-plain colored"></i>
+                <p>CSS</p>
+            </div>
+            <div>
+                <i class="devicon-git-plain"></i>
+                <p>Git</p>
+            </div>
+            <div>
+                <i class="devicon-python-plain colored"></i>
+                <p>Python</p>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <h3>Like what you see?<h3>
+        <button>Contact Me</button>
+    </footer>
 </body>
 </html>
